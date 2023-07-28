@@ -7,6 +7,10 @@ eleventyNavigation:
 
 # My Portfolio website
 
-<a href="https://weizhixie.github.io/coder-portfolio/">
-<img src="../img/wx-low-resolution-logo-black-on-white-background.svg" width="200px" height="auto" alt="Logo"/>
-My Portfolio</a>
+<div class="card" style="width: 18rem;">
+  <img src="../img/wx-low-resolution-logo-black-on-white-background.svg" class="card-img-top" alt="logo">
+  <div class="card-body">
+    <h5 class="card-title">My Portfolio</h5>
+    <a href="https://weizhixie.github.io/coder-portfolio/"  class="btn btn-primary">W.XIE Portfolio</a>
+  </div>
+</div>
