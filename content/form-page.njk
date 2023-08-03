@@ -30,7 +30,10 @@ eleventyNavigation:
     </div>
     <div class="col-md-9">
         <label for="message" class="form-label">Message</label>
-        <textarea class="form-control" id="message" rows="5" cols="30"></textarea>
+        <textarea class="form-control" id="message" name="message" rows="5" cols="30" required></textarea>
+        <div class="invalid-feedback">
+            Please enter your message.
+        </div>
     </div>
     <div class="col-12">
         <div class="form-check">
