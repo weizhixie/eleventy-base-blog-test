@@ -1,7 +1,7 @@
 ---
 title: Tip Calculator
 description: Tip Calculator
-date: 2023-08-13
+date: 2023-08-12
 tags:
   - Tip Calculator!
 ---
