@@ -6,7 +6,10 @@ tags:
   - Intro to JS Practicals
 ---
 ```js
-//Percentage Calculator
+/**
+ * Percentage Calculator
+ * Create a function that is able to return a specific percentage of any number.
+*/
 function percentageCalculator(inputNumber, inputPercentage) {
     if ((!Number.isInteger(inputNumber) && Number.isInteger(inputPercentage))) {
         return "Please enter a valid number.";
@@ -16,7 +19,12 @@ function percentageCalculator(inputNumber, inputPercentage) {
 
 console.log(percentageCalculator(135, 30));
 
-//Switch Statement
+/**
+ * Switch Statement
+ * Customers can order 3 different types of drink and also select 3 sizes.
+ * Cola, Lemonade and  Orangeade
+ * Small, Medium and Large
+*/
 function drinkOrder(inputSize, inputDrink) {
     const lowerCaseDrink = inputDrink.toLowerCase();
     let drinkLabel;
@@ -37,7 +45,11 @@ function drinkOrder(inputSize, inputDrink) {
 
 console.log(drinkOrder("large", "Orange"));
 
-//Calculator
+/**
+ * Calculator
+ * a function capable of using the addition, subtraction, multiply, 
+ * divider or modulus operator on 2 numbers provided.
+*/
 function calculator(inputNumber1, inputOperator, inputNumber2) {
     let result;
     switch (inputOperator) {
@@ -64,6 +76,10 @@ console.log(calculator(135, "/", 5));
 ```
 
 <script>
+    /**
+    * Percentage Calculator
+    * Create a function that is able to return a specific percentage of any number.
+    */
     function percentageCalculator(inputNumber, inputPercentage) {
         if ((!Number.isInteger(inputNumber) && Number.isInteger(inputPercentage))) {
             return "Please enter a valid number.";
